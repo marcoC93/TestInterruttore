@@ -7,6 +7,7 @@ public class Interruttore extends Lampadina {
 	
 	boolean isInterruttoreAcceso = false ;
 	ArrayList<Lampadina> lampadineCollegate = new ArrayList() ;
+	Lampadina lampadinaCollegata = new Lampadina();
 	Scanner s = new Scanner(System.in);
 	// Getter and Setters
 	
